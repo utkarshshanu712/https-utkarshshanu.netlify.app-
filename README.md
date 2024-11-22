@@ -25,6 +25,32 @@ A powerful tool to download YouTube playlist videos and songs in up to 8K resolu
 ### 📝 [Transparent Notes Pro](https://github.com/utkarshshanu712/transparent-notes-pro)
 An advanced note-taking application that allows you to take transparent notes on your desktop.
 
+## 📫 Future Plans & Roadmap
+
+### Upcoming Projects
+- 🚀 Personal Portfolio Website 2.0
+  - Enhanced UI/UX design
+  - Interactive project showcases
+  - Integrated blog section
+  - Performance optimizations
+
+### Learning Goals
+- 📱 Mobile App Development
+  - React Native
+  - Flutter
+- 🤖 Machine Learning & AI
+  - TensorFlow
+  - Python for ML
+- 🎨 UI/UX Design
+  - Figma
+  - Adobe XD
+
+### Website Enhancements
+- ✨ Add dark/light theme toggle
+- 🔍 Implement search functionality
+- 📊 Add project analytics
+- 🌐 Multi-language support
+
 ## 📫 Connect With Me
 Feel free to reach out for collaborations or just a friendly chat!
 

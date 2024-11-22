@@ -1,0 +1,163 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-image: url('../assests/coming.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    color: #fff;
+    line-height: 1.6;
+}
+
+.container {
+    max-width: 800px;
+    margin: 2rem auto;
+    padding: 2rem;
+    background-color: rgba(0, 0, 0, 0.7);
+    border-radius: 10px;
+    backdrop-filter: blur(5px);
+}
+
+h1, h2 {
+    color: #fff;
+}
+
+.social-links {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.section {
+    text-align: center;
+}
+
+.section a {
+    text-decoration: none;
+    margin: 0.5rem;
+    display: inline-block;
+    transition: transform 0.3s ease;
+}
+
+.section a:hover {
+    transform: translateY(-3px);
+    filter: brightness(1.2);
+}
+
+.coming-soon-section {
+    margin-top: 2rem;
+    padding: 2rem 0;
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.coming-soon {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.coming-soon img {
+    opacity: 0.7;
+}
+
+@media (max-width: 600px) {
+    .container {
+        margin: 1rem;
+        padding: 1rem;
+    }
+    
+    .section a {
+        margin: 0.25rem;
+    }
+    
+    .section img {
+        max-width: 100%;
+        height: auto;
+    }
+}
+
+.back-button {
+    padding: 12px 24px;
+    background-color: rgba(255, 255, 255, 0.1);
+    color: white;
+    text-decoration: none;
+    border-radius: 25px;
+    backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    transition: all 0.3s ease;
+    font-weight: 500;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.back-button:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+    transform: translateY(-2px);
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.3);
+}
+
+.back-button:active {
+    transform: translateY(0);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+/* Add media query for mobile responsiveness */
+@media (max-width: 768px) {
+    .back-button {
+        bottom: 20px;
+        right: 20px;
+        padding: 10px 20px;
+        font-size: 14px;
+    }
+}
+
+.home-button {
+    position: fixed;
+    bottom: 30px;
+    left: 30px;
+    padding: 12px 24px;
+    background-color: rgba(255, 255, 255, 0.1);
+    color: white;
+    text-decoration: none;
+    border-radius: 25px;
+    backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    transition: all 0.3s ease;
+    font-weight: 500;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    z-index: 1000;
+}
+
+.home-button:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+    transform: translateY(-2px);
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.3);
+}
+
+.home-button:active {
+    transform: translateY(0);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+@media (max-width: 768px) {
+    .home-button {
+        bottom: 20px;
+        left: 20px;
+        padding: 10px 20px;
+        font-size: 14px;
+    }
+    
+    /* Adjust back button position for better mobile layout */
+    .back-button {
+        bottom: 20px;
+        right: 20px;
+    }
+} 
